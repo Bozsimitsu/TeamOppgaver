@@ -16,12 +16,10 @@ let userBilde = 'https://cdn.betterttv.net/emote/5aa16eb65d4a424654d7e3e5/3x'
 show()
 function show() {
     app.innerHTML = `
-    <header>
-        <h2>${titel}</h2>
-        
-    </header>
+        <div>${titel}</div>
+
     <div class="image">
-        <img style="width:256px" src="${terjeBilde}">
+        <img style="width:200px" src="${terjeBilde}">
         <div>${terjeInput}</div>
     </div>
     <div class="buttons">
@@ -30,10 +28,10 @@ function show() {
         <button onclick="handleClick(this)">✌️</button>
     </div>
     <div class="image">
-        <img style="width:256px" src="${userBilde}">
+        <img style="width:200px" src="${userBilde}">
         <div>${userInput}</div>
     </div>
-    <h3>Lagd av team 4</h3>
+    <div>Lagd av team 4</div>
     
     `;
 }
