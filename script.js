@@ -67,7 +67,7 @@ function getResults() {
     if (resultStatus == 1){
         titel = 'Du vant';
         terjeBilde = 'https://media.discordapp.net/attachments/902105235391143937/910853951975460904/terje_mad.png'
-        userBilde = 'https://cdn.betterttv.net/emote/5590b223b344e2c42a9e28e3/3x'
+        userBilde = 'https://cdn.betterttv.net/emote/5f098c5719a5bd0524ec6571/3x'
     }
     if (resultStatus == 2){
         titel = 'Du tapte';
